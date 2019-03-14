@@ -68,3 +68,7 @@
   background: #523737;
   transform: rotateY(1turn);
 }
+
+.chats__chat:hover {
+  background: lightgray;
+}

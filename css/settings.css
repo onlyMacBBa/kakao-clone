@@ -1,0 +1,33 @@
+.settings .settings__list {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.settings__list .settings__setting {
+  padding: 15px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.settings__list .settings__setting {
+  display: flex;
+  align-items: flex-start;
+}
+
+.settings__setting .setting__content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.setting__content .setting__content__image {
+  margin: 5px 10px 5px 5px;
+}
+
+.setting__content .setting__content__text {
+  margin: 5px 10px 5px 10px;
+}
+
+.setting__content .setting__content__carrot {
+  position: absolute;
+  right: 20px;
+  margin: 5px 10px 5px 10px;
+}

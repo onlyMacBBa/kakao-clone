@@ -92,7 +92,7 @@
 }
 
 .type-message__input {
-  width: 80%;
+  width: 93%;
   display: flex;
   align-items: center;
   position: relative;
@@ -105,7 +105,7 @@
 
 .type-message__input .fa-smile-o {
   position: absolute;
-  right: 40px;
+  right: 50px;
   color: #b4b4b4;
 }
 
@@ -114,4 +114,5 @@
   background-color: #ffe934;
   padding: 10px;
   cursor: pointer;
+  margin-left: 10px;
 }

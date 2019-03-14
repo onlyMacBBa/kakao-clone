@@ -32,7 +32,7 @@
   animation: 1s rotateFriend infinite ease-in-out;
 }
 
-@keyframes rotateFriend {
+/*@keyframes rotateFriend {
   0% {
     transform: rotateY(0deg);
   }
@@ -42,7 +42,7 @@
   100% {
     transform: rotateY(360deg);
   }
-}
+}*/
 
 .friends__section-row a {
   text-decoration: none;
@@ -52,4 +52,8 @@
 .friends__section-column {
   display: flex;
   align-items: center;
+}
+
+.friends__section-row:hover {
+  background: lightgray;
 }
